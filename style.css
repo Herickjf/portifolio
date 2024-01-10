@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0D1117;
+    color: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border-bottom: white;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul a {
+    color: white;
+    margin: 0 25px;
+    font-size: 17px;
+    display: block;
+    text-decoration: none;
+}
+
+.entrance{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.entrance .eu{
+   width: 50%; 
+}
+.entrance .eu img{
+    border-radius: 50%;
+}
+.entrance .foto1 img{
+    border-radius: 10%;
+}
